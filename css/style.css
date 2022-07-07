@@ -23,11 +23,9 @@ p{
     font-size: 18px;
 }
 a{
-    color: #fff;
     text-decoration: none;
     display: inline-block;
-    background-color: red;
-    border-radius: 5px;
+    color: #000;
 }
 
 /* -------- navbar style start here ------------ */
@@ -81,6 +79,9 @@ section.banner-container{
 .banner-container .banner-left a{
     padding: 19px 45px;
     margin-top: 50px;
+    color: #fff;
+    background-color: red;
+    border-radius: 5px;
 }
 .banner-container .banner-left a:hover{
     background-color: blue;
@@ -91,4 +92,32 @@ section.banner-container{
 .banner-container .banner-right img{
     margin-top: 115px;
     width: 100%;
+}
+section.take-look{
+    text-align: center;
+    margin-top: 80px;
+
+}
+.cart-area{
+    margin-top:80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cart-area .cart{
+    width: 350px;
+    border: solid 2px gray ;
+    border-radius:5px;
+    padding: 20px;
+    margin-bottom: 200px;
+    transition: .5s;
+}
+.cart-area .cart1:hover,.cart-area .cart2:hover,.cart-area .cart3:hover{
+    border: solid plum 2px;
+    box-shadow: 1px 1px 10px plum;
+    transition: .5s;
+    margin-top: -40px;
+    padding-bottom: 40px;
+}
+.cart-area .cart img{
+    width: 100px;
 }
