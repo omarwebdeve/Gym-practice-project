@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    font-size: 70px;
+    color: #fff;
+}
+h2{
+    font-size: 50px;
+}
+h3{
+    font-size: 30px;
+}
+h4{
+    font-size: 22px;
+}
+p{
+    font-size: 18px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    background-color: red;
+    border-radius: 5px;
+}
+
+/* -------- navbar style start here ------------ */
+nav.menubar{
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    align-items: center;
+}
+/* .menubar .logo{} */
+.menubar .menu-items ul{
+    display: flex;
+}
+.menubar .menu-items ul li{
+    padding: 20px;
+    font-size: 18px;
+    list-style: none;
+}
+.menubar .menu-items ul li:hover{
+    color: blue;
+    cursor: pointer;
+}
+section.banner-container{
+    display:flex;
+    background-color: #000;
+    height: 100vh;
+}
+.banner-container .banner-left{
+    margin-left: 50px;
+    width: 60%;
+    color: #fff;
+    position: relative;
+    top:50%;
+    display:block;
+    transform: translateY(-35%);
+
+}
+.banner-container .banner-left h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+.banner-container .banner-left h4{
+    color:rgb(219 19 19);
+}
+.banner-container .banner-left p{
+    font-size: 22px;
+    color:rgb(196 205 205);
+}
+.banner-container .banner-left a{
+    padding: 19px 45px;
+    margin-top: 50px;
+}
+.banner-container .banner-left a:hover{
+    background-color: blue;
+}
+.banner-container .banner-right{
+    width: 40%;
+}
+.banner-container .banner-right img{
+    margin-top: 115px;
+    width: 100%;
+}
