@@ -76,7 +76,7 @@ section.banner-container{
     font-size: 22px;
     color:rgb(196 205 205);
 }
-.banner-container .banner-left a{
+.banner-container .banner-left a, .about-btn{
     padding: 19px 45px;
     margin-top: 50px;
     color: #fff;
@@ -120,4 +120,59 @@ section.take-look{
 }
 .cart-area .cart img{
     width: 100px;
+}
+section.about-us{
+    margin-top: 0;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+.about-us h2{
+    margin-bottom: 20px;
+}
+.about-us .about-container-area{
+    display: flex;
+}
+.about-us .about-left{
+    width: 50%;
+}
+.about-us .about-left img{
+    width: 288px;
+    padding: 20px;
+    margin-top: 50px;
+    transform: skewY(-15deg);
+  }
+.hr-driver{
+    width: 80%;
+    position: relative;
+    right: -116px;
+    margin-bottom: 20px;
+    border: solid #EF0B0B 1px;
+}
+.about-us .about-left .about-image{
+    display: flex;
+}
+.about-us .about-right .right-diver{
+    margin-bottom: 20px;
+    border: solid 1px #808080;
+}
+.about-us .about-right{
+    padding:0 5% 0 3%;
+    text-align: left;
+}
+.about-us .about-right h2{
+    font-size: 43px;
+    font-weight: 900px;
+}
+.about-us .about-right p{
+    font-size: 22px;
+    color:rgb(196 205 205);
+    margin: 10px 0;
+}
+.about-us .about-right ul {
+    margin: 20px 0;
+}
+.about-us .about-right ul li{
+    list-style: none;
+    font-size: 20px;
 }
