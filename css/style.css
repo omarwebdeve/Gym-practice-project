@@ -185,15 +185,66 @@ section.workout{
     border-radius: 25px;
     display: flex;
 }
-section.workout h2{
+.workout h2{
     color: #fff;
     padding: 80px ;
     font-size: 35px;
 }
-section.workout a{
+.workout a{
     margin: 80px  0;
     padding: 15px 30px;
     background-color: #fff;
     border-radius: 5px;
 
+}
+section.our-services {
+    margin-bottom: 100px;
+}
+.our-services h2{
+    text-align: center;
+    margin: 100px;
+
+}
+.our-services .service-cart-area{
+    display: flex;
+    justify-content:space-evenly;
+}
+.our-services .service-cart{
+    line-height: 1.8rem;
+    width: 350px;
+    box-shadow: 8px 8px 16px rgb(17 16 16) ;
+    border-radius: 5px;
+}
+.our-services .service-cart-2{
+    position: relative;
+}
+.our-services .batch{
+    width: 70px;
+    position: absolute !important;
+    right: 10px;
+    top: -30px;
+}
+.our-services .batch img{
+    width: 100% !important;
+}
+.our-services .service-cart .service-cart-des{
+    padding: 15px;
+}
+.our-services .service-cart > img{
+    width: 350px;
+    border-radius: 5px 5px 0 0;
+}
+.our-services .service-cart h4{
+    color: #EF0B0B;
+    font-size: 18px;
+}
+.our-services .service-cart .service-cart-prize{
+    display: flex;
+    justify-content:space-between;
+    
+}
+.our-services .service-cart .service-cart-prize a{
+    padding: 5px;
+    position: relative;
+    top: 5px;
 }
