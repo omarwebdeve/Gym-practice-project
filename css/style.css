@@ -176,3 +176,24 @@ section.about-us{
     list-style: none;
     font-size: 20px;
 }
+section.workout{
+    width: 700px;
+    margin:60px auto;
+    background-image: url("../images/shape/Group_33094_1.png");
+    background-position:center ;
+    background-size: cover;
+    border-radius: 25px;
+    display: flex;
+}
+section.workout h2{
+    color: #fff;
+    padding: 80px ;
+    font-size: 35px;
+}
+section.workout a{
+    margin: 80px  0;
+    padding: 15px 30px;
+    background-color: #fff;
+    border-radius: 5px;
+
+}
